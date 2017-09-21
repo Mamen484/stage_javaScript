@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<!--
+Authentification.html
+HTML + CSS + JS
+-->
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width">
+        <link rel="stylesheet" type="text/css" href="../css/main.css">
+
+        <link rel="stylesheet" type="text/css" href="../css/MenuHorizontal.css">
+<!--        <script src="../js/MenuHorizontal.js"></script>-->
+        <title>Authentification.html</title>
+    </head>
+
+    <body>
+        <!--<header id="header">-->
+        <div id="menu">
+            <ul id="listeItems">
+                <li><a href="Accueil.html">Accueil</a></li>
+                <li><a href="Authentification.html">Authentification</a></li>
+                <li><a href="Inscription.html">Inscription</a></li>
+                <li><a href="Calendrier.html">Calendrier</a></li>
+                <li><a href="Diaporama.html">Diaporama</a></li>
+            </ul>
+        </div>
+        <!--</header>-->
+
+        <article id="article">
+            <h1>Authentification</h1>
+            <ul>
+                <li>
+                    <input type="text" name="identifiant" id="identifiant" placeholder="identifiant" />
+                </li>
+                <li>
+                    <input type="password" name="mdp" id="mdp" placeholder="Mot de passe" value="milou" />
+                </li>
+                <br>
+                <li>
+                    <a href="MotDePasseOublie.html" id="motDePasseOublie">Mot de passe oublié</a>
+                </li>
+                <br>
+                <li>
+                    <input type="checkbox" name="chkAfficherMasquerMDP" id="chkAfficherMasquerMDP"/>
+                    <label for="chkAfficherMasquerMDP">Mot de passe visible ?</label>
+                </li>
+                <li>
+                    <input type="checkbox" name="chkSeSouvenirDeMoi" id="chkSeSouvenirDeMoi" value="ON" />
+                    <label for="chkSeSouvenirDeMoi">Se souvenir de moi ?</label>
+                </li>
+                <br>
+                <li>
+                    <input type="button" value="Valider" name="btValider" id="btValider"/>
+                </li>
+            </ul>
+            <label id="lblMessage"></label>
+        </article>
+
+        <script src="../js/Authentification.js"></script>
+<!--        <script src="../js/MenuHorizontal.js"></script>-->
+        <!--        <script src="Header.js"></script>-->
+    </body>
+</html>

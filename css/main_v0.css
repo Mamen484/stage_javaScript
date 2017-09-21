@@ -1,0 +1,86 @@
+/*
+main.css
+*/
+
+* {
+    margin: 0;
+    padding: 0;} 
+html, body{
+    width: 100%;
+    height: 100%;}
+global{}
+
+.etiquette{
+    display: block;
+    width: 150px;
+    float: left;
+    margin:0 10px;
+}
+.zoneDeSaisie{
+    display: block;
+    width: 150px;
+    float: left; 
+    margin:0 10px;
+}
+.liste{
+    display: block;
+    width: 150px;
+    float: left; 
+    margin:0 10px;
+}
+.btValider{
+    display: block;
+    width: 200px;
+    float: left;
+    margin:0 10px;
+}
+.nettoyeur{
+    width: 0;
+    height: 0;
+    clear: both;
+}
+
+/*#divDiaporama{margin: 0; padding: 0;height: 100%; width: 100%;}
+#barreBoutons{height: 10%; width: 100%;}
+#photos{background-color: black;float:left;}
+#photo{float:left; }
+#btZoom{float:left; padding-left:5px;}
+#cadreBlanc{float:left; background-color: white; padding:10px;}
+#photoMax{padding: 5px;}*/
+
+.fondNoir{background-color: black; padding: 15px;}
+.fondBlanc{background-color: white; padding: 0px;}
+.policeBlanche{color:white;}
+
+#btPremier{background-image: url(../images/btFirst.png); width: 40px; height:40px;}
+
+/*.grosBouton{width: 40px; height: 40px; color:white; background-color: silver; margin:5px; font-size: x-large;}
+.boutonPlay{width: 100px; height: 40px; color:white; background-color: silver; margin:5px; font-size: x-large;}
+.compteur{font-size: x-large; color: white; padding: 5px;}
+#lbGaleries{height: 40px;color:white; background-color: silver; margin:5px; font-size: x-large;}*/
+
+header{
+    background-color: dimgray; 
+    width: 100%; 
+    height: 10%;
+}
+#centre{
+    background-color: black; 
+    width: 99%;
+    height: 80%;
+    margin-bottom: 10%; /* must be same height as the footer */
+    padding-left: 1%;
+    padding-top: 1%;
+    overflow:auto;
+}
+footer{
+    background-color: dimgray; 
+    width: 100%;
+    position: relative;
+    margin-top: -10%; /* negative value of footer height */
+    height: 10%;
+    clear:both;
+}
+
+/*#cadreBlanc{display:none; position: absolute; left: 250px; top:150px;}*/
+/*#jauge{width: 600px;}*/

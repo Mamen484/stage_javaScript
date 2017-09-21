@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<!--
+Inscription.html
+HTML + CSS + JS
+-->
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width">
+        <link rel="stylesheet" type="text/css" href="../css/main.css">
+
+        <link rel="stylesheet" type="text/css" href="../css/MenuHorizontal.css">
+<!--        <script src="../js/MenuHorizontal.js"></script>-->
+        <title>Inscription</title>
+    </head>
+
+    <body>
+        <div id="menu">
+            <ul id="listeItems">
+                <li><a href="Accueil.html">Accueil</a></li>
+                <li><a href="Authentification.html">Authentification</a></li>
+                <li><a href="Inscription.html">Inscription</a></li>
+                <li><a href="Calendrier.html">Calendrier</a></li>
+                <li><a href="Diaporama.html">Diaporama</a></li>
+            </ul>
+        </div>
+
+        <article id="article">
+            <h1>Inscription</h1>
+            <form action="" method="GET">
+                <ul>
+                    <li>
+                        <label class="formulaire gris">Prénom</label>
+                        <input type="text" name="prenom" id="prenom" placeholder="Prénom" />
+                    </li>
+                    <li>
+                        <label class="formulaire gris">Nom</label>
+                        <input type="text" name="nom" id="nom" placeholder="Nom" />
+                    </li>
+                    <li>
+                        <label class="gris bloc">Date de naissance</label>
+                        <select name="jours" id="jours"></select>
+                        <select name="mois" id="mois"></select>
+                        <select name="annees" id="annees"></select>
+                    </li>
+                    <li>
+                        <label class="formulaire gris">E-mail</label>
+                        <input type="text" name="email" id="email" placeholder="E-mail" />
+                    </li>
+                    <li>
+                        <label class="formulaire gris">Ressaisissez votre e-mail</label>
+                        <input type="text" name="email2" id="email2" placeholder="E-mail de confirmation" />
+                    </li>
+                    <li>
+                        <label class="formulaire gris">Téléphone</label>
+                        <input type="text" name="tel" id="tel" placeholder="Téléphone" />
+                    </li>
+                    <li>
+                        <label class="formulaire gris">Pseudo</label>
+                        <input type="text" name="pseudo" id="pseudo" placeholder="Pseudo" />
+                    </li>
+                    <li>
+                        <label class="formulaire gris">Mot de passe</label>
+                        <input type="password" name="mdp" id="mdp" placeholder="Mot de passe" />
+                    </li>
+                    <li>
+                        <label class="formulaire gris">Ressaisissez votre mot de passe</label>
+                        <input type="password" name="mdp2" id="mdp2" placeholder="Mot de passe de confirmation" />
+                    </li>
+                    <li>
+                        <input type="checkbox" value="off" name="chkMdpVisibles" id="chkMdpVisibles" />
+                        <label for="chkMdpVisibles" class="gris">Mot de passe visible</label>
+                    </li>
+                    <li>
+                        <label class="formulaire gris">Ville</label>
+                        <select name="cp" id="cp">
+                            <!--                            <option value="75000">Paris</option>
+                                                        <option value="69000" selected="selected">Lyon</option>
+                                                        <option value="13000">Marseille</option>-->
+                        </select>
+                    </li>
+                    <li>
+                        <label class="formulaire gris">Hobbies</label>
+                        <select name="hobbies" id="hobbies" multiple="multiple" size="3">
+                                                        <option value="Théâtre">Théâtre</option>
+                                                        <option value="Cinéma" selected="selected">Cinéma</option>
+                                                        <option value="Foot">Foot</option>
+                                                        <option value="Tennis" selected="selected">Tennis</option>
+                                                        <option value="Musées">Musées</option>
+                        </select>
+                    </li>
+                    <br>
+                    <li>
+                        <input type="checkbox" value="off" name="chkNewsLetter" id="chkNewsLetter" />
+                        <label for="chkNewsLetter" class="gris">Je désire recevoir la News letter</label>
+                    </li>
+                    <li>
+                        <label class="formulaire gris">Fonction</label>
+                        <input type="radio" name="rbFonction" id="rbCadre" value="1" />
+                        <label for="rbCadre" class="gris">Cadre</label>
+                        <input type="radio" name="rbFonction" id="rbEmploye" value="2" />
+                        <label for="rbEmploye" class="gris">Employé</label>
+                        <input type="radio" name="rbFonction" id="rbOuvrier" value="3" />
+                        <label for="rbOuvrier" class="gris">Ouvrier</label>
+                    </li>
+                    <li>
+                        <input type="button" value="Valider" name="btValider" id="btValider" />
+                    </li>
+                    <li>
+                        <input type="button" value="Annuler" name="btAnnuler" id="btAnnuler" />
+                    </li>
+                </ul>
+            </form>
+
+            <p>
+                <label id="lblMessage"></label>
+            </p>
+        </article>
+
+        <script src="../js/Controles.js"></script>
+        <script src="../js/Inscription.js"></script>
+    </body>
+</html>

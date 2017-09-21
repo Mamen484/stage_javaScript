@@ -1,0 +1,21 @@
+
+/* 
+    diaporama.css
+*/
+
+#divDiaporama{margin: 0; padding: 0;height: 100%; width: 100%;}
+#barreBoutons{height: 10%; width: 100%;}
+#photos{background-color: black;float:left;}
+#photo{float:left; }
+#btZoom{float:left; padding-left:5px;}
+#cadreBlanc{float:left; background-color: white; padding:10px;}
+#photoMax{padding: 5px;}
+
+.grosBouton{width: 40px; height: 40px; color:white; background-color: silver; margin:5px; font-size: x-large;}
+.boutonPlay{width: 100px; height: 40px; color:white; background-color: silver; margin:5px; font-size: x-large;}
+.compteur{font-size: x-large; color: white; padding: 5px;}
+#lbGaleries{height: 40px;color:white; background-color: silver; margin:5px; font-size: x-large;}
+
+/*#cadreBlanc{display:none; position: absolute; left: 250px; top:150px;}*/
+#jauge{width: 600px;}
+

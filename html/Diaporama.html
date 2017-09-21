@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<!--
+Diaporama.html
+-->
+<html>
+    <head>
+        <title>Diaporama</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width">
+        <link rel="stylesheet" type="text/css" href="../css/MenuHorizontal.css">
+<!--        <script src="../js/MenuHorizontal.js"></script>-->
+
+        <link rel="stylesheet" type="text/css" href="../css/main.css">
+        <link rel="stylesheet" type="text/css" href="../css/diaporama.css">
+        <link rel="icon" type="image/png" href="../images/gadlu.png" />
+    </head>
+
+    <body>
+        <div id="menu">
+            <ul id="listeItems">
+                <li><a href="Accueil.html">Accueil</a></li>
+                <li><a href="Authentification.html">Authentification</a></li>
+                <li><a href="Inscription.html">Inscription</a></li>
+                <li><a href="Calendrier.html">Calendrier</a></li>
+                <li><a href="Diaporama.html">Diaporama</a></li>
+            </ul>
+        </div>
+
+        <article id="article">
+            <h1>Diaporama</h1>
+
+            <nav id="sommaire">
+            </nav>
+            <div id="barreBoutons">
+                <input id="btFirst" type="button" value="|<<" class="grosBouton" />
+                <input id="btPrevious" type="button" value="<<" class="grosBouton" />
+                <input id="btPlay" type="button" value="Play" class="boutonPlay" />
+                <input id="btNext" type="button" value=">>" class="grosBouton" />
+                <input id="btLast" type="button" value=">>|" class="grosBouton" />
+            </div>
+            <br>
+            <input id="jauge" type="range" min="1" max="600" value="200" />
+            <br>
+            <div id="centre">
+                <div id="photos">
+                    <img id="photo" src="../images/0.jpg" alt="photo" width="400"/>
+                </div>
+                <img id="btZoom" src="../images/zoom_noir.jpg" alt="zoom" />
+                <br class="nettoyeur">
+                <br>
+                <div id="divMessage">
+                    <label id="lblMessage" class="texteBlanc">Message</label>
+                </div>
+                <br>
+                
+                <br>
+                <div id="cadreBlanc">
+                    <img id="photoMax" src="../images/1.jpg" alt="photo" width="600"/>
+                </div>      
+            </div>
+            <!--        <div class="nettoyeur"></div>-->
+        </article>
+
+        <footer id="pied">
+<!--            <label id="lblFooter">A Paris nous sommes le 21 décembre 2012 et il est 21 heures 12</label>-->
+        </footer>
+
+        <script type="text/javascript" src="../js/Diaporama.js"></script>
+    </body>
+</html>
